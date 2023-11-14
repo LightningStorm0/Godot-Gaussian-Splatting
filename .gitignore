@@ -1,0 +1,4 @@
+# Godot 4+ specific ignores
+.godot/
+My_GS_Model/point_cloud/splat.ply
+My_GS_Model/point_cloud/splat_mercedes.ply
