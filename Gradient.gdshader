@@ -17,5 +17,5 @@ void fragment() {
 	float distanceFromCenter = length(UV - vec2(0.5, 0.5)) * 2.0;
 	
 	ALBEDO = color;
-	ALPHA = clamp(alpha - distanceFromCenter, 0.0, 1.0);
+	//ALPHA = clamp(alpha - distanceFromCenter, 0.0, 1.0);
 }
